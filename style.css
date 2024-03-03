@@ -131,13 +131,13 @@ span{
 .sec-third{
  
     position: absolute;
-    left: 50%;
+    left: 45%;
    top:70%;
     transform: translate(-50%,-50%);
     text-align: start;
     padding: 70px;
     height: 700px;
-    width: 800px;
+    width: 850px;
    
   
   }
@@ -146,6 +146,7 @@ span{
     text-align: center;
     color: white;
     padding-top: 10%;
+    width: 900px;
 }
 .sec3-p1{
     font-size: 50px;
@@ -160,14 +161,26 @@ span{
     padding-top: 30px;
 }
 
-.prog{
+.prog1{
     width: 600px;
+    margin-left:40px;
+}
+.prog2{
+    width: 600px;
+    margin-left:54px;
+}
+.prog3{
+    width: 600px;
+    margin-left:10px;
 }
 .progs{
     width: 400px;
 }
 .progss{
     width: 300px;
+}
+.pro-1{
+    margin-top: 17px;
 }
 .bgg{
     background-color: rgb(252, 123, 2);
