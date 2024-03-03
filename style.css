@@ -6,8 +6,18 @@
     background-repeat: no-repeat;
     height: 880px;
     background-color: black;
-    
-    
+}
+/* responsive */
+@media only screen and (max-width:600){
+    .sec2{
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+    }
+    .navbar{
+        width: 400px;
+        background-color: blueviolet;
+    }
 }
 /* Navbar */
 .navbar{
@@ -73,7 +83,7 @@ span{
   
   #sec-second:before {
     content: "";
-    background: rgba(8, 0, 0, 0.500);
+    background: rgba(8, 0, 0, 0.55);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -91,7 +101,7 @@ span{
     height: 700px;
     width: 800px;
     margin-left:px;
-    background-color:rgba(73, 71, 71, 0.804);
+    background-color:indigo;
     
 }
 .logo2{
