@@ -2,7 +2,7 @@
     font-family: sans-serif;
 }
 .sec-2{
-    background-image: url(bg1.png);
+    background-image: url(./images/bg1.png);
     background-repeat: no-repeat;
     height: 880px;
     background-color: black;
@@ -62,8 +62,8 @@ span{
 
 #sec-second {
     width: 100%;
-    height: 100vh;
-    background: url(bg2.png) top center;
+    height: 1400px;
+    background: url(./images/bg2.png) top center;
     background-repeat: no-repeat;
     background-size: cover;
     position:relative;
@@ -84,7 +84,7 @@ span{
   .content{
     position: absolute;
     left: 50%;
-   top:25%;
+   top:14%;
     transform: translate(-50%,-50%);
     text-align: start;
     padding: 70px;
@@ -127,8 +127,48 @@ span{
     background-color: rgb(252, 123, 2);
     color: white;
 }
-/* .progresss{
-    background-color:  rgb(252, 123, 2);
-    height: 600px;
-    width: 550px;
-} */
+/* sec-third */
+.sec-third{
+ 
+    position: absolute;
+    left: 50%;
+   top:70%;
+    transform: translate(-50%,-50%);
+    text-align: start;
+    padding: 70px;
+    height: 700px;
+    width: 800px;
+   
+  
+  }
+  
+.sec3-div{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+}
+.sec3-p1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.sec3-p2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.secdiv-2{
+    width: 800px;
+    padding-top: 30px;
+}
+
+.prog{
+    width: 600px;
+}
+.progs{
+    width: 400px;
+}
+.progss{
+    width: 300px;
+}
+.bgg{
+    background-color: rgb(252, 123, 2);
+}
