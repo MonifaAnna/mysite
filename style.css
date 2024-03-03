@@ -1,8 +1,131 @@
-.pic{
-    height: 500px;
+.main{
+    font-family: serif;
 }
-.pic-div{
-    width: 500px;
-    height: 500px;
-    background-color: blue;
+.sec-2{
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    
+    
 }
+/* Navbar */
+.navbar{
+    box-shadow: 0px 10px 10px  rgb(57, 55, 55);
+    color: white;
+    padding-top: 10px;
+    background-color: transparent;
+    width: 960px;
+}
+.navbar-brand{
+    margin-left: 200px; 
+}
+.logo{
+    width: 70px;
+    height:70px;
+}
+.nav-link{
+    color:white;
+}
+.nav-item{
+margin-left: 30px;
+}
+.nav-link:hover{
+    color:rgb(252, 123, 2)
+}
+/* middle-sec */
+.text-div{
+    text-align: start;
+    color:white;
+    width:700px;
+    margin-left: 200px;
+    margin-top: 80px;
+    height: 500px;
+    padding: 100px;
+}
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.text2{
+    font-size: 40px;
+    font-weight: 700;
+}
+span{
+    color:rgb(252, 123, 2);
+}
+
+
+
+/* second sec */
+
+#sec-second {
+    width: 100%;
+    height: 100vh;
+    background: url(bg2.png) top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    padding: 0;
+   
+  }
+  
+  #sec-second:before {
+    content: "";
+    background: rgba(8, 0, 0, 0.500);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  }
+  .content{
+    position: absolute;
+    left: 50%;
+   top:30%;
+    transform: translate(-50%,-50%);
+    text-align: start;
+    padding: 70px;
+    height: 700px;
+    width: 800px;
+    margin-left:px;
+    background-color:rgb(73, 71, 71);
+    
+}
+.logo2{
+    width: 120px;
+    height: 120px;
+    margin-left: 37%;
+    margin-bottom: 7%;
+}
+.sec-text{
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+.btn-second{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 30%;
+    background-color:transparent;
+    color:white;
+    border: 2px solid rgb(252, 123, 2);
+    
+}
+.sec-p{
+    font-size: 60px;
+    color: rgb(252, 123, 2);
+    padding-left: 80px;
+}
+ .btn-second:hover{
+    background-color: rgb(252, 123, 2);
+    color: white;
+}
+/* .progresss{
+    background-color:  rgb(252, 123, 2);
+    height: 600px;
+    width: 550px;
+} */
