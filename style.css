@@ -21,7 +21,7 @@
 }
 /* Navbar */
 .navbar{
-    box-shadow: 0px 10px 10px 10px  rgb(57, 55, 55);
+    box-shadow: 0px 10px 10px 10px  #3F3F4E;
     color: white;
     padding-top: 10px;
     background-color: transparent;
@@ -101,7 +101,7 @@ span{
     height: 700px;
     width: 800px;
     margin-left:px;
-    background-color:rgb(36, 5, 58);
+    background-color:#3F3F4E;
     
 }
 .logo2{
@@ -170,7 +170,7 @@ span{
 }
 
 .prog1{
-    width: 600px;
+    /* width: 600px; */
     margin-left:40px;
 }
 .prog2{
@@ -193,3 +193,172 @@ span{
 .bgg{
     background-color: rgb(252, 123, 2);
 }
+/* Portfolio sec */
+.portfolio-sec{
+    
+    height: 800px;
+}
+
+.imgs{
+    height: 100%;
+    filter: opacity(0.1);
+}
+
+.card{
+    height: 900px;
+}
+.imgs2{
+    height: 100%;
+    filter: opacity(0.2);
+}
+.center{
+    text-align: center;
+}
+.portfolio-text{
+    font-size: 50px;
+    margin-top: 10%;
+    font-weight: 830;
+}
+.text2{
+    font-weight: 830; 
+    font-size: 30px;
+}
+/* --------------progress bar------------------- */
+.progress-1 {
+    width:600px;
+    height:20px;
+    margin-left: 10%;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p1 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p1 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:100%}
+  }
+  .progress-2 {
+    width:600px;
+    height:20px;
+    margin-left: 12%;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p2 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p2 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:100%}
+  }
+  .progress-3 {
+    width:600px;
+    height:20px;
+    margin-left: 6%;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p3 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p3 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:100%}
+  }
+  .progress-4 {
+    width:600px;
+    height:20px;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p4 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p4 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:70%}
+  }
+  .progress-5 {
+    width:600px;
+    height:20px;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p5 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p5 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:40%}
+  }
+  /* --------------line----------- */
+  .container{
+    padding: 100px;
+    height: 70%;
+    background-color: blue;
+    width: 5px;
+  }
+  .lines{
+    height: 70%;
+    width:4px;
+    position: relative;
+    margin-left: 50%;
+  }
+  .lines::after, .lines::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    width: 4px;
+    height: 100%;
+    background-color:rgb(252, 123, 2);
+  }
+  /* .lines::after{
+    left: 0;
+  }
+  .lines::before{
+    right:0;
+  } */
+  .circle{
+    height: 25px;
+    width: 25px;
+margin-left: 49%;
+    border: 2px solid rgb(252, 123, 2);
+    background-color: rgb(252, 123, 2);
+    border-radius: 50%;
+  }
+  .container2{
+    padding: 100px;
+    height: 70%;
+    
+    margin-top: -21%;
+  }
+  .lines2{
+    height: 70%;
+    width:4px;
+    position: relative;
+    margin-left: 50%;
+  }
+  .lines2::after, .lines2::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    width: 4px;
+    height: 100%;
+    background-color:rgb(252, 123, 2);
+  }
