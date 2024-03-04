@@ -29,7 +29,10 @@
     border-radius: 10px;
 }
 .navbar-brand{
-    margin-left: 200px; 
+    margin-left: 60px; 
+}
+.navbar-collapse{
+  margin-left: 14%;
 }
 .logo{
     width: 70px;
