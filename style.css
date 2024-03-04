@@ -169,34 +169,14 @@ span{
     padding-top: 30px;
 }
 
-.prog1{
-    /* width: 600px; */
-    margin-left:40px;
-}
-.prog2{
-    width: 600px;
-    margin-left:54px;
-}
-.prog3{
-    width: 600px;
-    margin-left:10px;
-}
-.progs{
-    width: 400px;
-}
-.progss{
-    width: 300px;
-}
 .pro-1{
     margin-top: 17px;
 }
-.bgg{
-    background-color: rgb(252, 123, 2);
-}
+
 /* Portfolio sec */
 .portfolio-sec{
     
-    height: 800px;
+    height: 1070px;
 }
 
 .imgs{
@@ -205,7 +185,7 @@ span{
 }
 
 .card{
-    height: 900px;
+    height: 1400px;
 }
 .imgs2{
     height: 100%;
@@ -308,57 +288,40 @@ span{
       100% {background-size:40%}
   }
   /* --------------line----------- */
-  .container{
-    padding: 100px;
-    height: 70%;
-    background-color: blue;
-    width: 5px;
+  .experience-text1{
+    font-size: 60px;
+    font-weight: 850;
+    margin-left: 17%;
+    margin-bottom: 7%;
   }
-  .lines{
-    height: 70%;
-    width:4px;
-    position: relative;
-    margin-left: 50%;
+  .span{
+    color:rgb(252, 123, 2)
   }
-  .lines::after, .lines::before{
-    content: "";
-    position: absolute;
-    margin: auto;
-    width: 4px;
-    height: 100%;
-    background-color:rgb(252, 123, 2);
+.third-col-text{
+margin-top: 60%;
+}
+.third-col-text2{
+  margin-top: 72%;
   }
-  /* .lines::after{
-    left: 0;
-  }
-  .lines::before{
-    right:0;
-  } */
-  .circle{
-    height: 25px;
-    width: 25px;
-margin-left: 49%;
-    border: 2px solid rgb(252, 123, 2);
-    background-color: rgb(252, 123, 2);
-    border-radius: 50%;
-  }
-  .container2{
-    padding: 100px;
-    height: 70%;
-    
-    margin-top: -21%;
-  }
-  .lines2{
-    height: 70%;
-    width:4px;
-    position: relative;
-    margin-left: 50%;
-  }
-  .lines2::after, .lines2::before{
-    content: "";
-    position: absolute;
-    margin: auto;
-    width: 4px;
-    height: 100%;
-    background-color:rgb(252, 123, 2);
-  }
+.second-col-text{
+  margin-top: 80%;
+}
+/* ---------------Card---------------- */
+.card-btn{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  background-color:transparent;
+  color:white;
+  border: 2px solid rgb(252, 123, 2);
+  margin-top: 7%;
+  
+}
+.card-images{
+  height: 300px;
+}
+.card-shadow{
+  box-shadow: 0px 5px 10px 10px rgb(8, 8, 8)
+}
