@@ -290,7 +290,7 @@ span{
   @keyframes p5 {
     from{left:0%} 
     to{ right:100%;}
-      100% {background-size:40%}
+      100% {background-size:60%}
   }
   /* --------------line----------- */
   .experience-text1{
