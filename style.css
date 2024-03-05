@@ -1,11 +1,12 @@
+
 .main{
     font-family: sans-serif;
+
 }
 .sec-2{
-    background-image: url(./images/bg1.png);
-    background-repeat: no-repeat;
+    
     height: 880px;
-    background-color: black;
+  
 }
 /* responsive */
 @media only screen and (max-width:600){
@@ -181,7 +182,7 @@ span{
 /* Portfolio sec */
 .portfolio-sec{
     
-    height: 1130px;
+    height: 1200px;
 }
 
 .imgs{
