@@ -1,0 +1,24 @@
+
+/* -------Navbar----------- */
+
+span{
+    color:rgb(252, 123, 2);
+}    
+.logo{
+    width: 100px;
+    height: 100px;
+}   
+/* --------------middle-text-------------- */
+.text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 60px;
+    font-weight: 800;
+}
+.text2{
+    font-size: 40px;
+    
+}
