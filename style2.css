@@ -124,3 +124,234 @@ font-size: 23px;
     background-color: rgb(252, 123, 2);
     color: white;
 }
+/* -------------progress bar------------- */
+@media only screen and (max-width:768px){
+    .sec-third{
+        position: absolute;
+        left: 45%;
+       top:75%;
+        transform: translate(-50%,-50%);
+        text-align: start;
+        padding: px;
+        height: 600px;
+        width: 800px;
+     
+      }
+    .sec3-p1{
+        font-size: 40px;
+        font-weight: 830;
+        margin-left: 29%;
+    }
+    .sec3-p2{
+        font-size: 25px;
+        margin-left: 21%;
+    }
+    
+.prog1{
+    margin-left: 5%;
+  }
+  .pro-1{
+      margin-top: 17px;
+  }
+  .progress-1 {
+      width:600px;
+      height:20px;
+      margin-left: 10%;
+      background:
+       linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+       #ddd;
+      animation:p1 5s;
+      /* animation-iteration-count: 2; */
+      animation-fill-mode: forwards;
+      
+    }
+    @keyframes p1 {
+      from{left:0%} 
+      to{ right:100%;}
+        100% {background-size:100%}
+    }
+    .progress-2 {
+      width:600px;
+      height:20px;
+      margin-left: 13%;
+      background:
+       linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+       #ddd;
+      animation:p2 5s;
+      /* animation-iteration-count: 2; */
+      animation-fill-mode: forwards;
+      
+    }
+    @keyframes p2 {
+      from{left:0%} 
+      to{ right:100%;}
+        100% {background-size:100%}
+    }
+    .progress-3 {
+      width:600px;
+      height:20px;
+      margin-left: 5%;
+      background:
+       linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+       #ddd;
+      animation:p3 5s;
+      /* animation-iteration-count: 2; */
+      animation-fill-mode: forwards;
+      
+    }
+    @keyframes p3 {
+      from{left:0%} 
+      to{ right:100%;}
+        100% {background-size:100%}
+    }
+    .progress-4 {
+      width:600px;
+      height:20px;
+      background:
+       linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+       #ddd;
+      animation:p4 5s;
+      /* animation-iteration-count: 2; */
+      animation-fill-mode: forwards;
+      
+    }
+    @keyframes p4 {
+      from{left:0%} 
+      to{ right:100%;}
+        100% {background-size:70%}
+    }
+    .progress-5 {
+      width:600px;
+      height:20px;
+      background:
+       linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+       #ddd;
+      animation:p5 5s;
+      /* animation-iteration-count: 2; */
+      animation-fill-mode: forwards;
+      
+    }
+    @keyframes p5 {
+      from{left:0%} 
+      to{ right:100%;}
+        100% {background-size:60%}
+    }
+}
+@media only screen and (min-width:769px){
+
+
+.sec-third{
+    position: absolute;
+    left: 45%;
+   top:70%;
+    transform: translate(-50%,-50%);
+    text-align: start;
+    padding: px;
+    height: 600px;
+    width: 1000px;
+    
+  }
+.sec3-p1{
+    font-size: 50px;
+    font-weight: 830;
+    margin-left: 29%;
+}
+.sec3-p2{
+    font-size: 30px;
+    margin-left: 21%;
+}
+
+.prog1{
+  margin-left: 5%;
+}
+.pro-1{
+    margin-top: 17px;
+}
+.progress-1 {
+    width:600px;
+    height:20px;
+    margin-left: 10%;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p1 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p1 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:100%}
+  }
+  .progress-2 {
+    width:600px;
+    height:20px;
+    margin-left: 13%;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p2 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p2 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:100%}
+  }
+  .progress-3 {
+    width:600px;
+    height:20px;
+    margin-left: 5%;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p3 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p3 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:100%}
+  }
+  .progress-4 {
+    width:600px;
+    height:20px;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p4 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p4 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:70%}
+  }
+  .progress-5 {
+    width:600px;
+    height:20px;
+    background:
+     linear-gradient(rgb(252, 123, 2) 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p5 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+    
+  }
+  @keyframes p5 {
+    from{left:0%} 
+    to{ right:100%;}
+      100% {background-size:60%}
+  }
+}
+  /* -------portfolio sec */
+  .portfolio-sec{
+    height: 1000px;
+}
